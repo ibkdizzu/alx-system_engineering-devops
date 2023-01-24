@@ -2,7 +2,7 @@
 # Configure my domain zone:
 # www --> 71900-lb-01 100.24.205.184
 # web-01 --> 71900-web-01 100.26.136.152
-# web-02 --> 71900-lb-01 100.24.205.184
+# web-02 --> 71900-web-02 52.91.125.23
 
 # -- To be evaluated --
 # domain_information () {
