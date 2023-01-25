@@ -35,10 +35,10 @@ defaults
 
 frontend myfrontend
 	bind *:80
-	bind *:443 ssl crt /etc/haproxy/certs/www.uniqueel.tech.pem
+	bind *:443 ssl crt /etc/haproxy/certs/www.project-techbros.tech.pem
 	default_backend myservers
 
 backend myservers
 	balance roundrobin
-	server web-01 54.86.220.207:80 check
-	server web-02 54.175.137.217:80 check	
+	server web-01 100.26.136.152:80 check
+	server web-02 52.91.125.23:80 check	
